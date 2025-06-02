@@ -1,15 +1,15 @@
 const Hero = () => {
   return (
-    <section className="relative text-white py-24 overflow-hidden" id="hero">
+    <section className="relative text-white py-30 overflow-hidden" id="hero">
       {/* Animated Background */}
       <div className="absolute inset-0 z-0 before:absolute before:inset-0 before:animate-gradient before:bg-[radial-gradient(#444444_2px,transparent_1px)] before:bg-[size:20px_20px] before:opacity-20"></div>
 
       {/* Content */}
       <div className="relative z-10 container mx-auto px-6 text-center">
-        <h1 className="text-5xl font-extrabold leading-tight mb-6">
+        <h1 className="text-6xl font-extrabold leading-tight mb-14">
           Empower Your Campus Voice with <span className="text-blue-500">CampusConnect</span>
         </h1>
-        <p className="text-xl text-gray-300 max-w-3xl mx-auto mb-10">
+        <p className="text-xl text-gray-300 max-w-3xl mx-auto mb-14">
           Raise issues that matter. Upvote what matters to you. Stay informed about college events. 
           CampusConnect is your go-to platform for making student governance transparent and impactful.
         </p>
